@@ -11,19 +11,18 @@ body {
 .home-section {
   display: flex;
   justify-content: space-between;
+  padding: 0 12%;
 }
 .half-width {
   width: 50%;
 }
-.half-width1 {
+/*.half-width1 {
   margin-top: 120px;
-  margin-left: 120px;
-  margin-right: 20px;
-}
+}*/
 .half-width img {
-  width: 75%;
+  width: 80%;
   margin-top:0 ;
-  margin-left: 35px;
+ margin-left:80px;
   
 }
 .special-color {
@@ -89,3 +88,136 @@ border-radius: 10px;
 
 /*develop section*/
 
+.develop-without-limits {
+  display: flex;
+  margin-bottom: 100px;
+  padding: 0 10%;
+}
+.half-width2 {
+  width: 50%;
+  margin: 20px;
+}
+.half-width2 img {
+  width: 80%;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.our-community {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  margin-bottom: 100px;
+}
+.project img {
+  margin-left:100px;
+  
+}
+.half-width3 {
+  padding-top: 20px;
+}
+.half-width1 {
+  margin-top: 120px;
+}
+
+/*contact us*/
+/*
+.contact-us {
+  width: 80%;
+  margin-left: 130px;
+  height: 300px;
+  margin-top: 100px;
+  background-color:gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-info {
+  width: 50%;
+  margin-left: 100px;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.contact-info input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 6px;
+    margin-bottom: 20px;
+}
+.text-area {
+  height: 80px;
+  width: 50px;
+  margin-bottom: 50px;
+}
+*/
+.send-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange,tomato);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.contact-us {
+  width: 78%;
+  height: 300px;
+  background-color: gray;
+  border-radius: 10px;
+  margin-left:11%;
+  margin-right: 11%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-info {
+  width: 50%;
+  margin-left: 100px;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.contact-info input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 6px;
+    margin-bottom: 20px;
+}
+textarea {
+  border-radius: 10px;
+  width: 300px;
+  height: 120px;
+}
+#contact-info2 {
+  margin-top: 35px;
+}
+
+/*footer section*/
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 180px;
+}
+.special-color2 {
+  color: deeppink;
+}
+h4{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 45px;
+}
+.footer p {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 35px;
+}
